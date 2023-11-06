@@ -25,7 +25,7 @@ h1 {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .hero h2 {
@@ -110,7 +110,7 @@ nav li.active a {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content-container h1 {
@@ -146,7 +146,6 @@ footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-  display: flex;
 }
 
 footer .email-link:hover {

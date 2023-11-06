@@ -25,21 +25,52 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="a Front-end developer - Zahra Khedri - based in Iran contact page"
+    />
+    <title>Contact Zahra Khedri</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            alt="shecodes logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/logo-small.jpg"
+            alt="small shecodes logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About page">About</a></li>
+          <li><a href="/work.html" title="Work page">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
         <p>
-          <a href="mailto:zahrakhedri.94@gmail.com">zahrakhedri.94@gmail.com</a>
+          <a href="mailto:zahrakhedri.94@gmail.com" title="Zahra Khedri Email"
+            >zahrakhedri.94@gmail.com</a
+          >
         </p>
         <h3>LinkedIn</h3>
         <p>
           <a
             href="https://www.linkedin.com/in/zahra-khedri-60b4a2120/?originalSubdomain=ir"
             target="_blank"
+            title="LinkedIn profile"
             >@Zahra Khedri</a
           >
         </p>
@@ -48,10 +79,61 @@
           <a
             href="https://www.linkedin.com/in/zahra-khedri-60b4a2120/?originalSubdomain=ir"
             target="_blank"
+            title="Instagram profile"
             >@ZahraKhedri</a
           >
         </p>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact page"
+              class="btn btn-branding mt-3"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="mb-4 d-flex justify-content-center">
+          <a
+            href="mailto:zahrakhedri.94@gmail.com"
+            title="Zahra Khedri Email"
+            class="email-link"
+            >zahrakhedri.94@gmail.com</a
+          >
+        </div>
+        <div class="social-links mb-5 d-flex justify-content-center">
+          <a
+            href="https://www.github.com/Zahra"
+            title="GitHub profile"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i></a
+          ><a
+            href="https://www.linkedin.com/in/zahra-khedri-60b4a2120/?originalSubdomain=ir"
+            title="LinkedIn profile"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i></a
+          ><a
+            href="https://www.linkedin.com/in/zahra-khedri-60b4a2120/?originalSubdomain=ir"
+            title="Instagram profile"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="text-center">
+          <p>
+            ✌️ This website was coded by Zahra Khedri, and is
+            <a href="" title="Website Source Code" target="_blank"
+              >open-sourced</a
+            >
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
