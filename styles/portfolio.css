@@ -47,6 +47,11 @@ h1 {
   font-size: 18px;
   line-height: 27px;
 }
+
+.btn-branding:hover {
+  background-color: var(--branding-color);
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -57,6 +62,11 @@ h2 {
   font-size: 64px;
   font-weight: bold;
 }
+
+h4 {
+  font-size: 48px;
+}
+
 .logo {
   max-height: 40px;
 }
@@ -84,11 +94,15 @@ nav li.active a {
 
 .btn-branding-outline {
   color: var(--branding-color);
-  border-color: 1px solid var(--branding-color);
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  border: 1px solid var(--branding-color);
 }
 
 .project-description {
@@ -97,25 +111,6 @@ nav li.active a {
 
 .content-container {
   padding: 160px 20px;
-}
-
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-    line-height: 2;
-  }
-  h2 {
-    font-size: 44px;
-  }
-  .container {
-    text-align: center;
-  }
-  .project-description {
-    padding: 0;
-  }
-  .content-container {
-    padding: 0;
-  }
 }
 
 .content-container h1 {
@@ -140,4 +135,61 @@ nav li.active a {
 .developer-img {
   border-radius: 16px;
   max-width: 80%;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px 15px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  display: flex;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  color: var(--branding-color);
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  margin: 0 20px;
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
+@media (max-width: 986px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  .container {
+    text-align: center;
+  }
+  .project-description {
+    padding: 0;
+  }
+  .content-container {
+    padding: 0;
+  }
+
+  footer .contact-box .btn-branding {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
 }
